@@ -1,0 +1,12 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Initial test in chat app",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server",
+    "dev":"nodemon server"
+  },
+  "author": "Robin Paspuel",
+  "license": "MIT"
+}
