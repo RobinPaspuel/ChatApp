@@ -20,7 +20,7 @@ const BotName = 'Chat App Bot';
 //Run on connection
 io.on('connection', socket =>{
     //temp -> connection established
-    console.log('New WS Connection...');
+    //console.log('New WS Connection...');
 
     socket.on('joinRoom', ({username, room})=>{
         const user = userJoin(socket.id, username, room);
